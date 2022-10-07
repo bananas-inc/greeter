@@ -1,0 +1,19 @@
+{
+    "name": "@bananas-inc/greeter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "test": "exit 0",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    },
+    "publishConfig": {
+        "@bananas-inc:registry": "https://npm.pkg.github.com"
+    }
+}
