@@ -1,6 +1,6 @@
 {
     "name": "@bananas-inc/greeter",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
@@ -15,5 +15,8 @@
     },
     "publishConfig": {
         "@bananas-inc:registry": "https://npm.pkg.github.com"
-    }
+    },
+    "files": [
+        "lib/**/*"
+    ]
 }
